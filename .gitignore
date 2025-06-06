@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm or VS Code specific
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test, cache and coverage
+.pytest_cache/
+coverage/
+*.cover
+*.coverage
+*.cov
+htmlcov/
+
+# Data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.h5
+*.json
+*.db
+*.sqlite
+*.parquet
+*.joblib
+*.pkl
+
+# Matplotlib and Seaborn cache
+.matplotlib/
+seaborn-data/
+
+# Plots or output images
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Ignore requirements lock if generated
+poetry.lock
+Pipfile.lock
